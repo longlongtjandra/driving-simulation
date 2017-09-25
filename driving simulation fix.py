@@ -20,7 +20,7 @@ for i in range(0,t+1):
 
 
 
-    if ( (v>=60) and (z>=s) and (i == t)):
+    if ( (v>60) and (z>=s) and (i == t)):
         print("the person went over the speed limit.(Max speed was"+ (str(v))+"m/s)")
         print("the person reached the destination. (reached"+str(z)+"m/s)")
 
@@ -28,7 +28,7 @@ for i in range(0,t+1):
         print("the person did not go over the speed limit. (Max speed was"+ str(v)+"m)")
         print("the person reached the destination. (reached"+str(z)+"m/s)")
 
-    elif( (v>=60) and (z<s) and (i==t)):
+    elif( (v>60) and (z<s) and (i==t)):
         print("the person went over the speed limit.(Max speed was"+ str(v)+"m/s)")
         print("the person did not reached the destination. (reached"+str(z)+"m)")
 
